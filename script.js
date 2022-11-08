@@ -22,5 +22,7 @@ const calcIMC = () => {
         }
 
         resultado.innerHTML = `IMC: ${imc} (${classification})`
+    } else {
+        resultado.innerHTML = 'Preencha os campos'
     }
 }
